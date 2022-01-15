@@ -18,3 +18,4 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/Programvareverkstedet/Drift/projects/1'
+        column_name: 'Triage'
